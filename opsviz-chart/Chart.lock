@@ -1,0 +1,12 @@
+dependencies:
+- name: elasticsearch
+  repository: https://helm.elastic.co
+  version: 7.6.1
+- name: kibana
+  repository: https://helm.elastic.co
+  version: 7.6.1
+- name: fluentd
+  repository: https://kubernetes-charts.storage.googleapis.com
+  version: 2.4.0
+digest: sha256:90cecbcbb13be07dabae0170801c2078c4cf4de79d8a0cb6cb7c42640fcc3036
+generated: "2020-03-10T21:43:56.074275529-04:00"
