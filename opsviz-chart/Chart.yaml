@@ -18,15 +18,26 @@ version: 0.1.0
 
 dependencies:
   - name: elasticsearch
-    version: 7.6.0
+    version: 11.0.9
     repository: https://charts.bitnami.com/bitnami
   - name: kibana
-    version: 7.6.1
+    version: 5.0.9
     repository: https://charts.bitnami.com/bitnami
   - name: fluentd
-    version: 1.9.3
+    version: 0.4.18
     repository: https://charts.bitnami.com/bitnami
-
+  - name: prometheus        # from search results above
+    version: 11.0.2  # Also from the search results above
+    repository: https://kubernetes-charts.storage.googleapis.com
+  - name: grafana        # from search results above
+    version: 5.0.5 # Also from the search results above
+    repository: https://kubernetes-charts.storage.googleapis.com
+  - name: elasticsearch-exporter
+    version: 3.0.0 # Also from the search results above
+    repository: https://kubernetes-charts.storage.googleapis.com
+  - name: prometheus-redis-exporter
+    version: 3.3.3 # Also from the search results above
+    repository: https://kubernetes-charts.storage.googleapis.com
 
 # This is the version number of the application being deployed. This version number should be
 # incremented each time you make changes to the application.
